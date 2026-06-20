@@ -4,7 +4,7 @@ import './index.css'
 import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+  <BrowserRouter>                   //core wrapper component of react-router-dom package
     <App />
-  </StrictMode>,
-)
+  </BrowserRouter>                  //syncs React app UI with browser address bar
+);
